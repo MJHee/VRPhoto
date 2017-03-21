@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0826EE1E80D1EB00460920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0826ED1E80D1EB00460920 /* AppDelegate.swift */; };
+		6F0826F31E80D1EB00460920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0826F11E80D1EB00460920 /* Main.storyboard */; };
+		6F0826F61E80D1EB00460920 /* VR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F0826F41E80D1EB00460920 /* VR.xcdatamodeld */; };
+		6F0826F81E80D1EB00460920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0826F71E80D1EB00460920 /* Assets.xcassets */; };
+		6F0826FB1E80D1EB00460920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0826F91E80D1EB00460920 /* LaunchScreen.storyboard */; };
+		6F0827061E80D1EB00460920 /* VRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827051E80D1EB00460920 /* VRTests.swift */; };
+		6F0827111E80D1EB00460920 /* VRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827101E80D1EB00460920 /* VRUITests.swift */; };
+		6F08271F1E80D6B100460920 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F08271E1E80D6B100460920 /* Settings.bundle */; };
+		6F0827241E80D8A500460920 /* Sphere.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827221E80D8A500460920 /* Sphere.c */; };
+		6F0827261E80DB1800460920 /* MBPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827251E80DB1800460920 /* MBPhotoView.swift */; };
+		6F0827281E80F3BB00460920 /* MBPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827271E80F3BB00460920 /* MBPhotoViewController.swift */; };
+		6F08272C1E80F69000460920 /* MBScrollNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F08272B1E80F69000460920 /* MBScrollNavigationController.swift */; };
+		6F0827311E80F76500460920 /* MBScrollNavigationBar+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827301E80F76500460920 /* MBScrollNavigationBar+Size.swift */; };
+		6F0827331E81068D00460920 /* MBScrollNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0827321E81068D00460920 /* MBScrollNavigationViewController.swift */; };
+		6F91B4F91E810FBC00245543 /* MBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91B4F61E810FBC00245543 /* MBMainViewController.swift */; };
+		6F91B4FA1E810FBC00245543 /* MBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91B4F71E810FBC00245543 /* MBNavigationController.swift */; };
+		6F91B4FB1E810FBC00245543 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91B4F81E810FBC00245543 /* UIView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F0827021E80D1EB00460920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0826E21E80D1EB00460920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0826E91E80D1EB00460920;
+			remoteInfo = VR;
+		};
+		6F08270D1E80D1EB00460920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F0826E21E80D1EB00460920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F0826E91E80D1EB00460920;
+			remoteInfo = VR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0826EA1E80D1EB00460920 /* VR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0826ED1E80D1EB00460920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F0826F21E80D1EB00460920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F0826F51E80D1EB00460920 /* VR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VR.xcdatamodel; sourceTree = "<group>"; };
+		6F0826F71E80D1EB00460920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F0826FA1E80D1EB00460920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F0826FC1E80D1EB00460920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0827011E80D1EB00460920 /* VRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0827051E80D1EB00460920 /* VRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRTests.swift; sourceTree = "<group>"; };
+		6F0827071E80D1EB00460920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F08270C1E80D1EB00460920 /* VRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0827101E80D1EB00460920 /* VRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRUITests.swift; sourceTree = "<group>"; };
+		6F0827121E80D1EB00460920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F08271E1E80D6B100460920 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6F0827211E80D8A500460920 /* VR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VR-Bridging-Header.h"; sourceTree = "<group>"; };
+		6F0827221E80D8A500460920 /* Sphere.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sphere.c; sourceTree = "<group>"; };
+		6F0827231E80D8A500460920 /* Sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		6F0827251E80DB1800460920 /* MBPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBPhotoView.swift; sourceTree = "<group>"; };
+		6F0827271E80F3BB00460920 /* MBPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBPhotoViewController.swift; sourceTree = "<group>"; };
+		6F08272B1E80F69000460920 /* MBScrollNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBScrollNavigationController.swift; sourceTree = "<group>"; };
+		6F0827301E80F76500460920 /* MBScrollNavigationBar+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBScrollNavigationBar+Size.swift"; sourceTree = "<group>"; };
+		6F0827321E81068D00460920 /* MBScrollNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBScrollNavigationViewController.swift; sourceTree = "<group>"; };
+		6F91B4F61E810FBC00245543 /* MBMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBMainViewController.swift; sourceTree = "<group>"; };
+		6F91B4F71E810FBC00245543 /* MBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBNavigationController.swift; sourceTree = "<group>"; };
+		6F91B4F81E810FBC00245543 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F0826E71E80D1EB00460920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0826FE1E80D1EB00460920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0827091E80D1EB00460920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0826E11E80D1EB00460920 = {
+			isa = PBXGroup;
+			children = (
+				6F0826EC1E80D1EB00460920 /* VR */,
+				6F0827041E80D1EB00460920 /* VRTests */,
+				6F08270F1E80D1EB00460920 /* VRUITests */,
+				6F0826EB1E80D1EB00460920 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F0826EB1E80D1EB00460920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F0826EA1E80D1EB00460920 /* VR.app */,
+				6F0827011E80D1EB00460920 /* VRTests.xctest */,
+				6F08270C1E80D1EB00460920 /* VRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F0826EC1E80D1EB00460920 /* VR */ = {
+			isa = PBXGroup;
+			children = (
+				6F0827291E80F65500460920 /* Main */,
+				6F08272A1E80F65500460920 /* NavigationBarLib */,
+				6F08271E1E80D6B100460920 /* Settings.bundle */,
+				6F0827201E80D88C00460920 /* VRLib */,
+				6F0826ED1E80D1EB00460920 /* AppDelegate.swift */,
+				6F0826F11E80D1EB00460920 /* Main.storyboard */,
+				6F0826F71E80D1EB00460920 /* Assets.xcassets */,
+				6F0826F91E80D1EB00460920 /* LaunchScreen.storyboard */,
+				6F0826FC1E80D1EB00460920 /* Info.plist */,
+				6F0826F41E80D1EB00460920 /* VR.xcdatamodeld */,
+			);
+			path = VR;
+			sourceTree = "<group>";
+		};
+		6F0827041E80D1EB00460920 /* VRTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0827051E80D1EB00460920 /* VRTests.swift */,
+				6F0827071E80D1EB00460920 /* Info.plist */,
+			);
+			path = VRTests;
+			sourceTree = "<group>";
+		};
+		6F08270F1E80D1EB00460920 /* VRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F0827101E80D1EB00460920 /* VRUITests.swift */,
+				6F0827121E80D1EB00460920 /* Info.plist */,
+			);
+			path = VRUITests;
+			sourceTree = "<group>";
+		};
+		6F0827201E80D88C00460920 /* VRLib */ = {
+			isa = PBXGroup;
+			children = (
+				6F0827221E80D8A500460920 /* Sphere.c */,
+				6F0827231E80D8A500460920 /* Sphere.h */,
+				6F0827211E80D8A500460920 /* VR-Bridging-Header.h */,
+				6F0827251E80DB1800460920 /* MBPhotoView.swift */,
+				6F0827271E80F3BB00460920 /* MBPhotoViewController.swift */,
+			);
+			path = VRLib;
+			sourceTree = "<group>";
+		};
+		6F0827291E80F65500460920 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6F91B4F61E810FBC00245543 /* MBMainViewController.swift */,
+				6F91B4F71E810FBC00245543 /* MBNavigationController.swift */,
+				6F91B4F81E810FBC00245543 /* UIView+Extension.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6F08272A1E80F65500460920 /* NavigationBarLib */ = {
+			isa = PBXGroup;
+			children = (
+				6F08272B1E80F69000460920 /* MBScrollNavigationController.swift */,
+				6F0827301E80F76500460920 /* MBScrollNavigationBar+Size.swift */,
+				6F0827321E81068D00460920 /* MBScrollNavigationViewController.swift */,
+			);
+			path = NavigationBarLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F0826E91E80D1EB00460920 /* VR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0827151E80D1EB00460920 /* Build configuration list for PBXNativeTarget "VR" */;
+			buildPhases = (
+				6F0826E61E80D1EB00460920 /* Sources */,
+				6F0826E71E80D1EB00460920 /* Frameworks */,
+				6F0826E81E80D1EB00460920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VR;
+			productName = VR;
+			productReference = 6F0826EA1E80D1EB00460920 /* VR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F0827001E80D1EB00460920 /* VRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F0827181E80D1EB00460920 /* Build configuration list for PBXNativeTarget "VRTests" */;
+			buildPhases = (
+				6F0826FD1E80D1EB00460920 /* Sources */,
+				6F0826FE1E80D1EB00460920 /* Frameworks */,
+				6F0826FF1E80D1EB00460920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F0827031E80D1EB00460920 /* PBXTargetDependency */,
+			);
+			name = VRTests;
+			productName = VRTests;
+			productReference = 6F0827011E80D1EB00460920 /* VRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F08270B1E80D1EB00460920 /* VRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F08271B1E80D1EB00460920 /* Build configuration list for PBXNativeTarget "VRUITests" */;
+			buildPhases = (
+				6F0827081E80D1EB00460920 /* Sources */,
+				6F0827091E80D1EB00460920 /* Frameworks */,
+				6F08270A1E80D1EB00460920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F08270E1E80D1EB00460920 /* PBXTargetDependency */,
+			);
+			name = VRUITests;
+			productName = VRUITests;
+			productReference = 6F08270C1E80D1EB00460920 /* VRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F0826E21E80D1EB00460920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MJBaby;
+				TargetAttributes = {
+					6F0826E91E80D1EB00460920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X69H552D76;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					6F0827001E80D1EB00460920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F0826E91E80D1EB00460920;
+					};
+					6F08270B1E80D1EB00460920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F0826E91E80D1EB00460920;
+					};
+				};
+			};
+			buildConfigurationList = 6F0826E51E80D1EB00460920 /* Build configuration list for PBXProject "VR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F0826E11E80D1EB00460920;
+			productRefGroup = 6F0826EB1E80D1EB00460920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F0826E91E80D1EB00460920 /* VR */,
+				6F0827001E80D1EB00460920 /* VRTests */,
+				6F08270B1E80D1EB00460920 /* VRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F0826E81E80D1EB00460920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F08271F1E80D6B100460920 /* Settings.bundle in Resources */,
+				6F0826FB1E80D1EB00460920 /* LaunchScreen.storyboard in Resources */,
+				6F0826F81E80D1EB00460920 /* Assets.xcassets in Resources */,
+				6F0826F31E80D1EB00460920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0826FF1E80D1EB00460920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F08270A1E80D1EB00460920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F0826E61E80D1EB00460920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F91B4FB1E810FBC00245543 /* UIView+Extension.swift in Sources */,
+				6F0827281E80F3BB00460920 /* MBPhotoViewController.swift in Sources */,
+				6F91B4F91E810FBC00245543 /* MBMainViewController.swift in Sources */,
+				6F08272C1E80F69000460920 /* MBScrollNavigationController.swift in Sources */,
+				6F0827311E80F76500460920 /* MBScrollNavigationBar+Size.swift in Sources */,
+				6F91B4FA1E810FBC00245543 /* MBNavigationController.swift in Sources */,
+				6F0827241E80D8A500460920 /* Sphere.c in Sources */,
+				6F0827261E80DB1800460920 /* MBPhotoView.swift in Sources */,
+				6F0826F61E80D1EB00460920 /* VR.xcdatamodeld in Sources */,
+				6F0827331E81068D00460920 /* MBScrollNavigationViewController.swift in Sources */,
+				6F0826EE1E80D1EB00460920 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0826FD1E80D1EB00460920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0827061E80D1EB00460920 /* VRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F0827081E80D1EB00460920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0827111E80D1EB00460920 /* VRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F0827031E80D1EB00460920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0826E91E80D1EB00460920 /* VR */;
+			targetProxy = 6F0827021E80D1EB00460920 /* PBXContainerItemProxy */;
+		};
+		6F08270E1E80D1EB00460920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F0826E91E80D1EB00460920 /* VR */;
+			targetProxy = 6F08270D1E80D1EB00460920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F0826F11E80D1EB00460920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0826F21E80D1EB00460920 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F0826F91E80D1EB00460920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0826FA1E80D1EB00460920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F0827131E80D1EB00460920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F0827141E80D1EB00460920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F0827161E80D1EB00460920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X69H552D76;
+				INFOPLIST_FILE = VR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.VR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VR/VRLib/VR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6F0827171E80D1EB00460920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X69H552D76;
+				INFOPLIST_FILE = VR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.VR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VR/VRLib/VR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6F0827191E80D1EB00460920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.VRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VR/VRLib/VR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VR.app/VR";
+			};
+			name = Debug;
+		};
+		6F08271A1E80D1EB00460920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.VRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VR/VRLib/VR-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VR.app/VR";
+			};
+			name = Release;
+		};
+		6F08271C1E80D1EB00460920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.VRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VR;
+			};
+			name = Debug;
+		};
+		6F08271D1E80D1EB00460920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hemengjie.VRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F0826E51E80D1EB00460920 /* Build configuration list for PBXProject "VR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0827131E80D1EB00460920 /* Debug */,
+				6F0827141E80D1EB00460920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0827151E80D1EB00460920 /* Build configuration list for PBXNativeTarget "VR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0827161E80D1EB00460920 /* Debug */,
+				6F0827171E80D1EB00460920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F0827181E80D1EB00460920 /* Build configuration list for PBXNativeTarget "VRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0827191E80D1EB00460920 /* Debug */,
+				6F08271A1E80D1EB00460920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F08271B1E80D1EB00460920 /* Build configuration list for PBXNativeTarget "VRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F08271C1E80D1EB00460920 /* Debug */,
+				6F08271D1E80D1EB00460920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F0826F41E80D1EB00460920 /* VR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F0826F51E80D1EB00460920 /* VR.xcdatamodel */,
+			);
+			currentVersion = 6F0826F51E80D1EB00460920 /* VR.xcdatamodel */;
+			path = VR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F0826E21E80D1EB00460920 /* Project object */;
+}
